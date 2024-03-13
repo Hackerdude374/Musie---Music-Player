@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import './navbar.css'; // Import your navbar CSS file
 
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState('');
